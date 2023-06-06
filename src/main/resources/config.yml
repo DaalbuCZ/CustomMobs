@@ -1,0 +1,21 @@
+#1: number of custom mob, increase by 1 for each new mob
+#  entityType: type of the mob
+#  displayName: name above the mob
+#  maxHealth: integer
+#  heldItem:
+#    material: material of the item, if none then AIR
+#    displayName: name of the item
+#    dropChance: float, 0.0 to 1.0
+#
+#Example:
+1:
+  entityType: ZOMBIE
+  displayName: "&c&lMaster Zombie"
+  maxHealth: 100
+  heldItem:
+    material: DIAMOND_SWORD
+    displayName: "&c&lMaster Sword"
+    dropChance: 0.1
+
+
+

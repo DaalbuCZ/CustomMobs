@@ -11,7 +11,11 @@ public class CustomMob {
     public CustomMob(String entityType, String displayName, int maxHealth, HeldItem heldItem) {
         this.entityType = entityType;
         this.displayName = displayName;
-        this.maxHealth = maxHealth;
+        if (maxHealth < 1) {
+            this.maxHealth = 1;
+        } else {
+            this.maxHealth = maxHealth;
+        }
         this.heldItem = heldItem;
     }
 
